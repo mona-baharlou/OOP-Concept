@@ -1,4 +1,4 @@
-# OOP-Concept
+# OOP Concept
 
 Object-oriented programming (OOP) is **a programming paradigm** that organizes code into **reusable objects** that interact with one another. This concept is widely used in Android development using Kotlin and Java. In OOP, there are several **principles** that **guide the design and development process**. Let's cover some of these principles with examples in Kotlin for Android.
 
