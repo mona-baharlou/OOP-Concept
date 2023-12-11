@@ -2,7 +2,8 @@
 
 Object-oriented programming (OOP) is a programming paradigm that organizes code into reusable objects that interact with one another. This concept is widely used in Android development using Kotlin. In OOP, there are several principles that guide the design and development process. Let's cover some of these principles with examples in Kotlin for Android.
 
-1. Encapsulation: This principle emphasizes bundling data and methods together in a class and controlling access to them using access modifiers such as private, protected, or public. Here's an example:
+## 1. Encapsulation: 
+This principle emphasizes bundling data and methods together in a class and controlling access to them using access modifiers such as private, protected, or public. Here's an example:
 
 class Car {
     private var speed: Int = 0
@@ -16,7 +17,8 @@ class Car {
 In this example, the speed property is encapsulated within the Car class, allowing controlled access through the accelerate, and brake methods.
 
 
-2. Inheritance: Inheritance allows classes to inherit properties and methods from a parent class. It enables code reuse and the creation of specialized classes. Here's an example:
+## 2. Inheritance:
+Inheritance allows classes to inherit properties and methods from a parent class. It enables code reuse and the creation of specialized classes. Here's an example:
 open class Shape {
     open fun area(): Double {
         return 0.0
@@ -29,7 +31,8 @@ class Rectangle(private val width: Double, private val height: Double) : Shape()
 }
 In this example, the Rectangle class inherits the area method from the Shape class and overrides it to calculate the area of a rectangle.
 
-3. Polymorphism: Polymorphism is a concept that allows you to define methods in the superclass that the subclasses can override. It refers to the ability of an object to change its behavior depending on the type of object it is being referred to.
+## 3. Polymorphism:
+Polymorphism is a concept that allows you to define methods in the superclass that the subclasses can override. It refers to the ability of an object to change its behavior depending on the type of object it is being referred to.
 Here's an example to illustrate polymorphism in Android Kotlin:
 open class Shape {
     open fun draw() {
@@ -107,7 +110,8 @@ There are two types of polymorphism in Kotlin:
     }
 With polymorphism, objects of different classes can be treated as objects of their parent class, allowing for more flexibility and code reusability.
 
-4. Abstraction: Abstraction focuses on defining interfaces and hiding implementation details. It allows for the separation of concerns and enables code modularity. Here's an example:
+## 4. Abstraction:
+Abstraction focuses on defining interfaces and hiding implementation details. It allows for the separation of concerns and enables code modularity. Here's an example:
 interface Drawable {
     fun draw()
 }
@@ -125,7 +129,8 @@ class Square : Drawable {
 }
 In this example, the Drawable interface provides a common draw method that classes like Circle and Square implement. The implementation details are hidden, and you can treat objects uniformly through the interface.
 
-OOP Interview Q&A
+
+## OOP Interview Q&A
 
 1-What is the difference between a constructor and a method?
 The name of the constructor is same as that of the class name, whereas the name of the method can be anything.
